@@ -893,7 +893,7 @@ function Footer({ setPage }) {
           </div>
           <div>
             <div style={{ fontFamily:F.mono, fontSize:'0.68rem', letterSpacing:'0.12em', textTransform:'uppercase', color:C.textMuted, marginBottom:14 }}>Wheels</div>
-            {[['Custom Builder','tools'],['Yes or No','tools'],['Name Picker','tools'],['Prize Wheel','tools']].map(([l,p]) => (
+            {[['Custom Builder','tools'],['Yes or No','tools'],['Name Picker','tools'],['Truth or Dare','tools'],['What to Eat','tools'],['Number Wheel','tools'],['Team Randomizer','tools'],['Prize Wheel','tools']].map(([l,p]) => (
               <div key={l} style={{ marginBottom:8 }}>
                 <button onClick={() => setPage(p)} style={{ background:'none', color:C.textDim, fontFamily:F.display, fontSize:'0.95rem' }}>{l}</button>
               </div>
